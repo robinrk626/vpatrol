@@ -1,5 +1,5 @@
 const z = require('zod');
-const { errorResponse, STATUS_CODES } = require('../../utils/response/response.handler');
+const { errorResponse, throwValidationError } = require('../../utils/response/response.handler');
 const { ROLE_IDS } = require('../../utils/constants/constants');
 const { validateZodSchema } = require('../../utils/common-utils/common-utils');
 
