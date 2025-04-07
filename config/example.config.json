@@ -1,0 +1,15 @@
+{
+    "PORT": 3002,
+    "database": {
+        "username": "",
+        "password": "",
+        "databaseName": ""
+    },
+    "redisConnection": {
+        "port": 6379,
+        "hostname": "localhost"
+    },
+    "jwt": {
+        "secret": ""
+    }
+}
