@@ -10,7 +10,7 @@ const loginSchema = z.object({
 
 const checkLoginParams = (req, res, next) => {
   try {
-    const validationResult = validateZodSchema(signupSchema, req.body);
+    const validationResult = validateZodSchema(loginSchema, req.body);
     if (!validationResult.success) {
       throwValidationError({
         message: validationResult.errors.join(', ')
